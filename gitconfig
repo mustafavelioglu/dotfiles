@@ -1,0 +1,21 @@
+[user]
+	name = Mustafa Velioğlu
+	email = mustafa.velioglu@metglobaltech.com
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	ci = commit
+	st = status
+	mauc = !git update-index --assume-unchanged # mark as unchaned
+	mac = !git update-index --no-assume-unchanged # mark as changed
+	gmauc = !sh -c 'git ls-files -v $0 | grep "^[[:lower:]]"'  # get marked as unchanged
+	gmaucf = !sed -e 's/^h\\s//g' | tr '\n' ' ' # get marked as unchanged formatted
+	brv = branch --verbose
+    lastt = describe --abbrev=0 
+	co = checkout
+[color]
+	ui = auto
+	branch = auto
+	status = always
+[core]
+	editor = vim
+	excludesfile = /home/mustafa/.gitignore
