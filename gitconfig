@@ -12,6 +12,7 @@
 	brv = branch --verbose
     lastt = describe --abbrev=0 
 	co = checkout
+	wdiff = diff --word-diff
 [color]
 	ui = auto
 	branch = auto
@@ -19,3 +20,4 @@
 [core]
 	editor = vim
 	excludesfile = /home/mustafa/.gitignore
+	autocrlf = input
