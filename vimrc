@@ -28,3 +28,4 @@ autocmd vimenter * if !argc() | NERDTree | endif
 
 " shortcut definitions
 nmap <C-n> :NERDTreeToggle<CR>
+inoremap jk <Esc>
