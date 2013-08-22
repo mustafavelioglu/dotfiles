@@ -19,5 +19,4 @@
 	status = always
 [core]
 	editor = vim
-	excludesfile = /home/mustafa/.gitignore
-	autocrlf = input
+	excludesfile = ~/.gitignore
