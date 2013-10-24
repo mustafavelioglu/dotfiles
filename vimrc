@@ -10,6 +10,7 @@ set encoding=utf-8 nobomb
 set expandtab ts=4 sw=4 
 set softtabstop=4
 set relativenumber
+set backspace=indent,eol,start
 syntax on
 cmap w!! w !sudo tee % >/dev/null
 filetype off
@@ -24,5 +25,3 @@ Bundle 'Townk/vim-autoclose'
 Bundle 'ervandew/supertab'
 
 filetype plugin indent on
-
-" shortcut definitions
