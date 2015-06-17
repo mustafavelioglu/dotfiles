@@ -57,6 +57,6 @@ export EDITOR=vim
 export WORKON_HOME=~/.virtualenvs
 mkdir -p $WORKON_HOME
 source /usr/local/bin/virtualenvwrapper.sh
-
 # with X argument less doesn't clear the screen after exit
 export LESS="-RX"
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function* ]]

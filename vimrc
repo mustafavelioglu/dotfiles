@@ -33,6 +33,7 @@ Bundle 'Townk/vim-autoclose'
 Bundle 'bling/vim-airline'
 Bundle 'tpope/vim-surround'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'chilicuil/vim-sml-coursera'
 
 filetype plugin indent on
 
@@ -55,3 +56,7 @@ syntax enable
 set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
+set history=1500
+
+" shortcuts
+nnoremap ,lcd :lcd %:p:h<CR>:pwd<CR>
